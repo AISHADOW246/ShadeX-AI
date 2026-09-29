@@ -22,5 +22,5 @@ jobs:
       - name: Start ShadeX AI
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node index.js
